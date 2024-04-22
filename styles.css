@@ -65,7 +65,7 @@ footer {
 }
 
 .lifehack-image {
-  width: 700px; /* Set the width of the image */
-  height: 700px; /* Set the height of the image */
-  object-fit: cover; /* Ensure the image covers the specified dimensions */
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
 }

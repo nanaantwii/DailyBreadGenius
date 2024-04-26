@@ -63,9 +63,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-.lifehack-image {
-  width: 700px;
-  height: 700px;
-  object-fit: cover;
-}

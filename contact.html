@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LifeHacksGenius</title>
+  <title>Contact Us - LifeHacksGenius</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>LifeHacksGenius</h1>
+    <h1>Contact Us</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -38,10 +38,20 @@
     </nav>
   </header>
 
-  <section id="home" class="category">
-    <h2>Welcome to LifeHacksGenius!</h2>
-    <p>LifeHacksGenius is your ultimate destination for discovering practical life hacks to make your everyday tasks easier. Whether you're looking for kitchen shortcuts, home improvement tips, or tech tricks, we've got you covered!</p>
-    <p>Explore our categories below to find innovative solutions to common challenges.</p>
+  <section id="contact" class="category">
+    <h2>Contact Form</h2>
+    <form action="send_email.php" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
   </section>
 
   <footer>

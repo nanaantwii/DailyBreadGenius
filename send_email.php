@@ -1,17 +1,17 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $to = "ikwabz@gmail.com"; // Your email address
-    $subject = "New Message from LifeHacksGenius Contact Form";
-    $body = "Name: $name\nEmail: $email\n\n$message";
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
 
-    // Send email
-    if (mail($to, $subject, $body)) {
-        echo "<p>Thank you, $name! Your message has been sent successfully.</p>";
-    } else {
-        echo "<p>Oops! Something went wrong. Please try again later.</p>";
-    }
+  // Here you can process the form submission, for example, sending an email
+  
+  // Redirect the user to a thank you page after form submission
+  header("Location: thank-you.html");
+  exit();
+} else {
+  // If someone tries to access this script directly without submitting the form, redirect them to the contact page
+  header("Location: contact.html");
+  exit();
 }
 ?>

@@ -5,16 +5,41 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Deployment](#deployment)
-4. [External Sources](#external-sources)
-5. [Screenshots](#screenshots)
-6. [Contributing](#contributing)
-7. [License](#license)
+2. [Project Rationale](#project-rationale)
+3. [Key Project Goals](#key-project-goals)
+4. [Target Audience](#target-audience)
+5. [Features](#features)
+6. [Deployment](#deployment)
+7. [External Sources](#external-sources)
+8. [Screenshots](#screenshots)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ## Introduction
 
 LifeHacksGenius is a web application designed to provide users with a collection of practical life hacks to make everyday tasks easier. From kitchen shortcuts to home improvement tips and tech tricks, LifeHacksGenius offers innovative solutions to common challenges.
+
+## Project Rationale
+
+The development of LifeHacksGenius was motivated by the need to create a centralized platform for users to access a wide range of life hacks across different categories. In today's fast-paced world, people are constantly looking for efficient ways to manage their daily tasks. LifeHacksGenius aims to simplify users' lives by providing them with quick and effective solutions to common problems.
+
+## Key Project Goals
+
+1. **Provide Valuable Content**: Deliver high-quality content that offers practical solutions to everyday challenges in various aspects of life.
+2. **User-Friendly Interface**: Design an intuitive and easy-to-navigate interface that allows users to quickly find relevant information.
+3. **Engage Users with Multimedia**: Incorporate videos and images to engage users and enhance their learning experience.
+4. **Encourage Interaction**: Create a contact form to encourage user feedback, questions, and suggestions.
+5. **Responsive Design**: Ensure the website is accessible and functional across different devices and screen sizes.
+
+## Target Audience
+
+LifeHacksGenius targets individuals who are seeking efficient and innovative ways to simplify their daily tasks. The target audience includes:
+
+- Busy professionals looking for time-saving techniques.
+- Homeowners interested in DIY home improvement projects.
+- Cooking enthusiasts seeking kitchen shortcuts and recipes.
+- Tech-savvy individuals seeking tips and tricks for gadgets and devices.
+- Students and learners interested in practical life hacks.
 
 ## Features
 
@@ -22,20 +47,42 @@ LifeHacksGenius is a web application designed to provide users with a collection
 The home page provides an overview of the website and its purpose. Users can learn about the different categories of life hacks available.
 
 ### 2. Kitchen Hacks
-The kitchen hacks page offers various tips and tricks to simplify cooking and food preparation. Users can find solutions to common kitchen-related problems, such as removing garlic smell from hands or easily peeling hard-boiled eggs.
+The kitchen hacks page offers various tips and tricks to simplify cooking and food preparation.
 
 ### 3. Home Improvement Hacks
-The home improvement hacks page presents practical tips for improving the home environment. Users can discover solutions for tasks like hanging pictures without damaging walls or fixing scratches on wooden furniture.
+The home improvement hacks page presents practical tips for improving the home environment.
 
 ### 4. Tech Hacks
-The tech hacks page offers innovative solutions to everyday tech-related issues. Users can learn useful tips, such as creating a makeshift smartphone stand using a paperclip or cleaning a keyboard with a sticky note.
+The tech hacks page offers innovative solutions to everyday tech-related issues.
 
 ### 5. Contact Us
-The contact page allows users to send inquiries or feedback via a contact form. After submission, users receive a confirmation message, and the website administrators are notified via email.
+The contact page allows users to send inquiries or feedback via a contact form.
 
 ## Deployment
 
-The web application is deployed and accessible at: [LifeHacksGenius Live Site](https://nanaantwii.github.io/LifeHacksGenius/index.html)
+The site was deployed to GitHub Pages. Below are the steps taken to deploy the project:
+
+1. **GitHub Repository Setup**:
+   - Create a new repository on GitHub.
+
+2. **Local Development**:
+   - Develop the project locally, ensuring all files, including HTML, CSS, JavaScript, and assets, are properly structured and functional.
+
+3. **Commit Changes**:
+   - Add, commit, and push all changes to the GitHub repository.
+
+4. **GitHub Pages Configuration**:
+   - Navigate to the GitHub repository's Settings tab.
+
+5. **Select Source Branch**:
+   - In the Settings tab, scroll down to the GitHub Pages section.
+   - From the Source section drop-down menu, select the main branch.
+
+6. **Confirmation**:
+   - Once the main branch is selected, the page will automatically refresh, displaying a detailed ribbon indicating the successful deployment.
+
+7. **Accessing the Deployed Site**:
+   - The deployed site will be available at the following URL: [LifeHacksGenius](https://nanaantwii.github.io/LifeHacksGenius/index.html).
 
 ## External Sources
 
@@ -54,6 +101,55 @@ YouTube embeds are used to display videos demonstrating various life hacks.
 ## Screenshots
 
 (Insert screenshots here)
+
+## Testing
+
+#### Functionality Testing
+- **Contact Form Submission**: 
+  - Tested the contact form by entering valid data and submitting.
+  - Verified that the form submits without errors.
+  - Confirmed that the confirmation message appears after successful submission.
+  - Tested the form with invalid data (e.g., empty fields, incorrect email format) to ensure appropriate error handling.
+
+- **Navigation**:
+  - Clicked on each navigation link to verify that it correctly navigates to the intended page.
+  - Checked that the links open in a new tab as expected.
+
+- **Dropdown Menu**:
+  - Hovered over the dropdown menu to verify that the items highlight and are clickable.
+  - Clicked on each dropdown item to ensure it navigates to the correct page.
+
+- **Clickable Links**:
+  - Hovered over clickable links to verify that the cursor changes to a pointer.
+  - Clicked on each link to ensure it navigates correctly.
+
+- **Form Input Fields**:
+  - Clicked on form input fields to ensure they focus correctly.
+  - Entered data to verify that the input fields accept user input.
+
+#### Compatibility Testing
+- **Browsers**: 
+  - Tested on Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge.
+  - Verified that the site looks and works correctly across all browsers.
+
+- **Screen Sizes**:
+  - Tested on various screen sizes including desktop, tablet, and mobile.
+  - Ensured responsiveness by adjusting the screen size and checking layout changes.
+
+#### Validator Testing
+- **HTML**:
+  - Passed through the official W3C validator with no errors.
+
+- **CSS**:
+  - Passed through the official (Jigsaw) validator with no errors.
+
+#### Unfixed Bugs
+- The "405 Not Allowed" error persists when submitting the contact form.
+  - This issue may be related to server-side configuration or PHP code.
+  - Unable to fix due to limitations in understanding server configurations.
+
+### Conclusion
+The testing conducted ensured that the website's functionality works as intended, providing users with an easy and straightforward experience. The site is responsive across different devices and browsers. Despite efforts, the "405 Not Allowed" error in the contact form submission remains unresolved due to limitations in fixing server-side configurations.
 
 ## Contributing
 

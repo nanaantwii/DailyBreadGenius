@@ -12,8 +12,9 @@
 6. [Deployment](#deployment)
 7. [External Sources](#external-sources)
 8. [Screenshots](#screenshots)
-9. [Contributing](#contributing)
-10. [License](#license)
+9. [Testing](#testing)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ## Introduction
 
@@ -46,17 +47,35 @@ LifeHacksGenius targets individuals who are seeking efficient and innovative way
 ### 1. Home Page
 The home page provides an overview of the website and its purpose. Users can learn about the different categories of life hacks available.
 
+- **Implementation**: Implemented in `index.html`.
+  
 ### 2. Kitchen Hacks
 The kitchen hacks page offers various tips and tricks to simplify cooking and food preparation.
+
+- **Implementation**: Implemented in `kitchen.html`.
 
 ### 3. Home Improvement Hacks
 The home improvement hacks page presents practical tips for improving the home environment.
 
+- **Implementation**: Implemented in `home-improvement.html`.
+
 ### 4. Tech Hacks
 The tech hacks page offers innovative solutions to everyday tech-related issues.
 
+- **Implementation**: Implemented in `tech.html`.
+
 ### 5. Contact Us
 The contact page allows users to send inquiries or feedback via a contact form.
+
+- **Implementation**: Implemented in `contact.html`.
+
+### Future Features
+- **User Accounts**: Allow users to create accounts to save their favorite life hacks and submit their own hacks.
+- **Search Functionality**: Implement a search feature to help users quickly find specific life hacks.
+- **Rating and Commenting System**: Allow users to rate and comment on life hacks, providing feedback and additional tips.
+- **Social Sharing**: Add social sharing buttons to allow users to easily share life hacks with their friends and followers.
+- **Newsletter Subscription**: Allow users to subscribe to a newsletter to receive regular updates on new life hacks.
+- **Weekly Featured Hacks**: Showcase a new set of featured life hacks each week, curated by our team, covering various categories and interests.
 
 ## Deployment
 
@@ -84,19 +103,25 @@ The site was deployed to GitHub Pages. Below are the steps taken to deploy the p
 7. **Accessing the Deployed Site**:
    - The deployed site will be available at the following URL: [LifeHacksGenius](https://nanaantwii.github.io/LifeHacksGenius/index.html).
 
-## External Sources
+## Credits
 
-### Bootstrap
-Bootstrap is used for styling and layout components.
-[Link to Bootstrap](https://getbootstrap.com/)
+### Content
+- The content for the life hacks was compiled from various sources, including:
+  - [Lifehack.org](https://www.lifehack.org/)
+  - [BuzzFeed](https://www.buzzfeed.com/)
+  - [DIY & Crafts](https://www.diyncrafts.com/)
 
-### Font Awesome
-Font Awesome provides icons used throughout the web application.
-[Link to Font Awesome](https://fontawesome.com/)
+### Media
+- The images used in this project were obtained from the following sources:
+  - [Unsplash](https://unsplash.com/)
+  - [Pexels](https://www.pexels.com/)
+  - [Pixabay](https://pixabay.com/)
 
-### YouTube Embed
-YouTube embeds are used to display videos demonstrating various life hacks.
-[Link to YouTube](https://www.youtube.com/)
+### External Help
+- Special thanks to the following resources for providing guidance, tutorials, and code snippets:
+  - [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/): For styling and layout components.
+  - [Font Awesome](https://fontawesome.com/): For providing icons used throughout the web application.
+  - [YouTube](https://www.youtube.com/): For embedding videos demonstrating various life hacks.
 
 ## Screenshots
 

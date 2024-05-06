@@ -1,77 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Page Title -->
-  <title>LifeHacksGenius</title>
-  <!-- External CSS -->
+  <title>LifeHacksGenius - Practical Life Hacks</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header Section -->
+  <!-- Header -->
   <header>
-    <h1>LifeHacksGenius</h1>
-    <!-- Navigation -->
-    <nav>
-      <ul>
-        <!-- Navigation Links -->
-        <li><a href="index.html" target="_blank">Home</a></li>
-        <li><a href="kitchen.html" target="_blank">Kitchen</a></li>
-        <li><a href="home-improvement.html" target="_blank">Home Improvement</a></li>
-        <li><a href="tech.html" target="_blank">Tech</a></li>
-        <li><a href="contact.html" target="_blank">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>LifeHacksGenius</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kitchen.html">Kitchen</a></li>
+          <li><a href="home-improvement.html">Home Improvement</a></li>
+          <li><a href="tech.html">Tech</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Section: Welcome Message -->
-  <section id="home" class="category">
-    <h2>Welcome to LifeHacksGenius!</h2>
-    <!-- Description -->
-    <p>Discover ingenious life hacks to simplify your daily routines and make your life easier.</p>
-    <!-- Categories -->
-    <div class="categories">
-      <h3>Explore Popular Categories</h3>
-      <ul>
-        <li><a href="kitchen.html">Kitchen Hacks</a> - Cooking made simpler with these handy tips.</li>
-        <li><a href="home-improvement.html">Home Improvement</a> - DIY tricks for home maintenance and repair.</li>
-        <li><a href="tech.html">Tech Tips</a> - Make the most out of your gadgets and devices.</li>
-      </ul>
-    </div>
-    <!-- Featured Life Hack -->
-    <div class="featured-lifehack">
-      <h3>Featured Life Hack</h3>
-      <h4>Stain Removal Made Easy</h4>
-      <p>Learn how to remove stubborn stains from clothing using common household items.</p>
-      <img src="images/stain-removal.jpg" alt="Stain Removal" width="400">
-      <p><a href="#">Read More</a></p>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h2>Welcome to LifeHacksGenius!</h2>
+      <p>Discover practical life hacks to simplify your everyday tasks.</p>
+      <a href="#categories" class="btn">Explore Categories</a>
     </div>
   </section>
 
-  <!-- Section: About Us -->
-  <section id="about" class="category">
-    <h2>About Us</h2>
-    <!-- About Us Description -->
-    <p>LifeHacksGenius is dedicated to providing you with practical solutions to everyday problems. Our team of experts compiles and shares the best life hacks and tips to help you save time, money, and effort.</p>
-    <!-- Our Mission -->
-    <h3>Our Mission</h3>
-    <p>We believe that everyone can benefit from simple yet effective life hacks. Our mission is to empower you with the knowledge and tools you need to streamline your routines and enhance your quality of life.</p>
+  <!-- Categories Section -->
+  <section id="categories">
+    <div class="container">
+      <h2>Popular Categories</h2>
+      <div class="category">
+        <h3>Kitchen Hacks</h3>
+        <p>Find quick tips and tricks to make cooking easier.</p>
+        <a href="kitchen.html" class="btn">Explore Kitchen Hacks</a>
+      </div>
+      <div class="category">
+        <h3>Home Improvement</h3>
+        <p>Learn DIY hacks to improve your living space.</p>
+        <a href="home-improvement.html" class="btn">Explore Home Improvement</a>
+      </div>
+      <div class="category">
+        <h3>Tech Hacks</h3>
+        <p>Discover tech tips and tricks for your gadgets and devices.</p>
+        <a href="tech.html" class="btn">Explore Tech Hacks</a>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>LifeHacksGenius is your ultimate destination for discovering practical life hacks to make your everyday tasks easier. Whether you're looking for kitchen shortcuts, home improvement tips, or tech tricks, we've got you covered!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <!-- Copyright -->
-    <p>&copy; 2024 LifeHacksGenius</p>
-    <!-- CSS Validator -->
-    <p>
-      <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-        <img style="border:0;width:88px;height:31px"
-          src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-          alt="Valid CSS!" />
-      </a>
-    </p>
+    <div class="container">
+      <p>&copy; 2024 LifeHacksGenius</p>
+      <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+          <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS">
+        </a>
+      </p>
+    </div>
   </footer>
+
 </body>
 </html>

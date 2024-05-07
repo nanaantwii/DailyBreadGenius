@@ -53,7 +53,7 @@ nav ul li a:hover {
 
 /* Content Section Styles */
 .category {
-  padding: 20px;
+  padding: 20px 0 300px; /* Increased bottom padding */
 }
 
 .lifehack {
@@ -81,11 +81,52 @@ footer {
   width: 100%;
 }
 
-/* Iframe Styles */
-.iframe {
-  width: 100%; /* Set to 100% for responsiveness */
-  height: 315px; /* Set a fixed height */
-  border: 0;
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
 
 /* New Styles */
@@ -168,4 +209,11 @@ a:hover {
 #about p {
   font-size: 1.1rem;
   margin-bottom: 30px;
+}
+
+/* Iframe Styles */
+.iframe {
+  width: 560px;
+  height: 315px;
+  border: 0;
 }

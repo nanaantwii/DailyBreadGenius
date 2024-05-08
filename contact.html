@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Page Title -->
-  <title>Contact Us - LifeHacksGenius</title>
-  <!-- External CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
+
   <!-- Header Section -->
   <header>
     <h1>Contact Us</h1>
@@ -30,30 +28,29 @@
     </nav>
   </header>
 
-  <!-- Section: Contact Form -->
-  <section id="contact" class="category">
-    <h2>Contact Form</h2>
+  <!-- Main Content Section -->
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>Please fill out the form below to contact us.</p>
     <!-- Contact Form -->
     <form action="send-email.php" method="POST">
-      <!-- Name Input -->
-      <label for="name">Your Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
-      <!-- Email Input -->
-      <label for="email">Your Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
-      <!-- Message Input -->
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="4" required></textarea><br><br>
-      <!-- Submit Button -->
-      <input type="submit" value="Submit">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
     </form>
-  </section>
+  </div>
 
   <!-- Footer Section -->
   <footer>
-    <!-- Copyright -->
     <p>&copy; 2024 LifeHacksGenius</p>
-    <!-- CSS Validator -->
+    <!-- Add CSS Validator -->
     <p>
       <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
         <img style="border:0;width:88px;height:31px"
@@ -62,5 +59,6 @@
       </a>
     </p>
   </footer>
+
 </body>
 </html>

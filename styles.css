@@ -80,7 +80,7 @@ footer {
   text-align: center;
   padding: 1rem;
   position: fixed;
-  bottom: 0;
+  bottom: 20;
   width: 100%;
 }
 
@@ -233,4 +233,3 @@ a:hover {
 .guide-heading {
   margin-top: 20px;
 }
-

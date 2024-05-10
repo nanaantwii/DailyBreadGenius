@@ -73,17 +73,6 @@ nav ul li a:hover {
   height: 700px;
 }
 
-/* Footer Styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  width: 100%;
-  position: absolute; /* Fixed the footer position */
-  bottom: 0;
-}
-
 /* Dropdown Styles */
 .dropdown {
   position: relative;
@@ -232,4 +221,15 @@ a:hover {
 
 .guide-heading {
   margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  position: absolute; /* Fixed the footer position */
+  bottom: 0;
 }

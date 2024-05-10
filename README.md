@@ -54,20 +54,28 @@ The home page provides an overview of the website and its purpose. Users can lea
 ### 2. Kitchen Hacks
 The kitchen hacks page offers various tips and tricks to simplify cooking and food preparation.
 
+<img src="images/kitchen.png" alt="kitchen page">
+
 - **Implementation**: Implemented in `kitchen.html`.
 
 ### 3. Home Improvement Hacks
 The home improvement hacks page presents practical tips for improving the home environment.
+
+<img src="images/home.png" alt="home improvement page">
 
 - **Implementation**: Implemented in `home-improvement.html`.
 
 ### 4. Tech Hacks
 The tech hacks page offers innovative solutions to everyday tech-related issues.
 
+<img src="images/Tech.png" alt="tech page">
+
 - **Implementation**: Implemented in `tech.html`.
 
 ### 5. Contact Us
 The contact page allows users to send inquiries or feedback via a contact form.
+
+<img src="images/contact.png" alt="contact us page">
 
 - **Implementation**: Implemented in `contact.html`.
 

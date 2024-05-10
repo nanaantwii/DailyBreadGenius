@@ -229,7 +229,5 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  /* position: fixed; */ /* Remove fixed positioning */
-  /* bottom: 0; */ /* Remove bottom positioning */
   width: 100%;
 }

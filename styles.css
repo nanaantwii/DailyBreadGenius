@@ -65,11 +65,10 @@ nav ul li a:hover {
 }
 
 .lifehack img {
-  max-width: 70%; /* Matched with iframe width */
+  max-width: 100%;
   display: block;
-  margin: 0 auto; /* Center the image horizontally */
   margin-top: 10px;
-  height: auto; /* Set height to auto for responsive resizing */
+  height: 700px;
 }
 
 
@@ -217,7 +216,7 @@ a:hover {
 /* Iframe Container Styles */
 .iframe-container {
   position: relative;
-  padding-bottom: 0; /* Adjusted padding to remove gap */
+  padding-bottom: 0;
   height: 0;
   overflow: hidden;
 }

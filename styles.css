@@ -228,3 +228,9 @@ a:hover {
   width: 70%;
   height: 70%;
 }
+
+/* Add this style to your existing CSS */
+.guide-heading {
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+

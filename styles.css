@@ -10,7 +10,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f8f8f8;
   line-height: 1.6;
-  padding-bottom: 50%; /* Adjusted padding to create space for the footer */
+  min-height: 100vh; /* Ensure the body takes up at least the height of the viewport */
+  position: relative; /* Make the body a relative container for absolute positioning */
 }
 
 /* Header Styles */
@@ -54,7 +55,7 @@ nav ul li a:hover {
 
 /* Content Section Styles */
 .category {
-  padding: 20px 0 100px; /* Increased bottom padding */
+  padding: 20px 0; /* Adjusted padding */
 }
 
 .lifehack {
@@ -208,7 +209,6 @@ a:hover {
   padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
   height: 0;
   overflow: hidden;
-  margin-bottom: 20px; /* Adjust the bottom margin of the iframe container */
 }
 
 .iframe-container iframe {
@@ -230,4 +230,6 @@ footer {
   text-align: center;
   padding: 1rem;
   width: 100%;
+  position: absolute; /* Fixed the footer position */
+  bottom: 0;
 }

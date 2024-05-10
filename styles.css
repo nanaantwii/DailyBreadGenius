@@ -229,8 +229,8 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  /* Remove fixed positioning */
-  position: absolute;
+  /* Set the footer to fixed position */
+  position: fixed;
   bottom: 0;
   width: 100%;
 }

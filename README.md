@@ -111,7 +111,7 @@ The site was deployed to GitHub Pages. Below are the steps taken to deploy the p
    - Once the main branch is selected, the page will automatically refresh, displaying a detailed ribbon indicating the successful deployment.
 
 7. **Accessing the Deployed Site**:
-   - The deployed site will be available at the following URL: [LifeHacksGenius](https://nanaantwii.github.io/LifeHacksGenius/index.html).
+   - The deployed site will be available at the following URL: [DailyBreadGenius](https://nanaantwii.github.io/DailyBreadGenius/).
 
 ## Credits
 

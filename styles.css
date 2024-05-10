@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f8f8f8;
   line-height: 1.6;
-  padding-bottom: 50%; /* Adjusted padding to create space for the footer */
+  padding-bottom: 100%; /* Adjusted padding to create space for the footer */
 }
 
 /* Header Styles */
@@ -233,10 +233,10 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 999; /* Ensure the footer is above other elements */
 }
 
 /* Content Section Styles */
 .category {
   padding: 20px 0; /* Adjust padding */
-  margin-bottom: 100px; /* Add margin at the bottom to prevent overlap with footer */
 }

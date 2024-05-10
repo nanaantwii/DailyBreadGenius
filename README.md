@@ -1,7 +1,7 @@
 # LifeHacksGenius
 
 ![LifeHacksGenius Logo](./images/logo.png)
-![LifeHacksGenius Screenshot](images/screenshot.png)
+![LifeHacksGenius Screenshot](images/Screenshot.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -47,7 +47,7 @@ LifeHacksGenius targets individuals who are seeking efficient and innovative way
 ### 1. Home Page
 The home page provides an overview of the website and its purpose. Users can learn about the different categories of life hacks available.
 
-<img src="images/screenshot.jpg" alt="homepage">
+<img src="images/Screenshot.png" alt="homepage">
 
 - **Implementation**: Implemented in `index.html`.
   

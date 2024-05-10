@@ -1,6 +1,6 @@
 # DailyBread Genius
 
-![LifeHacksGenius Logo](./images/logo.png)
+![DailyBreadGenius Logo](./images/logo.png)
 ![DailyBreadGenius Screenshot](images/Screenshot.png)
 
 ## Table of Contents
@@ -133,17 +133,11 @@ The site was deployed to GitHub Pages. Below are the steps taken to deploy the p
   - [Font Awesome](https://fontawesome.com/): For providing icons used throughout the web application.
   - [YouTube](https://www.youtube.com/): For embedding videos demonstrating various life hacks.
 
-## Screenshots
-
-(Insert screenshots here)
-
 ## Testing
 
 #### Functionality Testing
 - **Contact Form Submission**: 
   - Tested the contact form by entering valid data and submitting.
-  - Verified that the form submits without errors.
-  - Confirmed that the confirmation message appears after successful submission.
   - Tested the form with invalid data (e.g., empty fields, incorrect email format) to ensure appropriate error handling.
 
 - **Navigation**:

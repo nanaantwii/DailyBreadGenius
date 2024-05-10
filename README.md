@@ -47,6 +47,8 @@ LifeHacksGenius targets individuals who are seeking efficient and innovative way
 ### 1. Home Page
 The home page provides an overview of the website and its purpose. Users can learn about the different categories of life hacks available.
 
+<img src="images/screenshot.jpg" alt="homepage">
+
 - **Implementation**: Implemented in `index.html`.
   
 ### 2. Kitchen Hacks

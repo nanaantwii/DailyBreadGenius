@@ -1,7 +1,7 @@
 # LifeHacksGenius
 
 ![LifeHacksGenius Logo](./images/logo.png)
-![LifeHacksGenius Screenshot](./images/screenshot.png)
+![LifeHacksGenius Screenshot](images/screenshot.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)

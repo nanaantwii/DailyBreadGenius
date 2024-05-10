@@ -1,6 +1,5 @@
 # DailyBread Genius
 
-![DailyBreadGenius Logo](./images/logo.png)
 ![DailyBreadGenius Screenshot](images/Screenshot.png)
 
 ## Table of Contents

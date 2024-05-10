@@ -65,11 +65,10 @@ nav ul li a:hover {
 }
 
 .lifehack img {
-  width: 70%; /* Matched with iframe width */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
   display: block;
-  margin: 0 auto; /* Center horizontally */
   margin-top: 10px;
+  height: 700px;
 }
 
 

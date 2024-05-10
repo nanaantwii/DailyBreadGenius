@@ -1,7 +1,7 @@
-# LifeHacksGenius
+# DailyBread Genius
 
 ![LifeHacksGenius Logo](./images/logo.png)
-![LifeHacksGenius Screenshot](images/Screenshot.png)
+![DailyBreadGenius Screenshot](images/Screenshot.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -18,7 +18,7 @@
 
 ## Introduction
 
-LifeHacksGenius is a web application designed to provide users with a collection of practical life hacks to make everyday tasks easier. From kitchen shortcuts to home improvement tips and tech tricks, LifeHacksGenius offers innovative solutions to common challenges.
+DailyBreadGenius is a web application designed to provide users with a collection of practical life hacks to make everyday tasks easier. From kitchen shortcuts to home improvement tips and tech tricks, LifeHacksGenius offers innovative solutions to common challenges.
 
 ## Project Rationale
 
@@ -34,7 +34,7 @@ The development of LifeHacksGenius was motivated by the need to create a central
 
 ## Target Audience
 
-LifeHacksGenius targets individuals who are seeking efficient and innovative ways to simplify their daily tasks. The target audience includes:
+DaiyBreadGenius targets individuals who are seeking efficient and innovative ways to simplify their daily tasks. The target audience includes:
 
 - Busy professionals looking for time-saving techniques.
 - Homeowners interested in DIY home improvement projects.
